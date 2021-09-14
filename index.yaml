@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  poc-jenkins-bitbucket-hook:
+  poc:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-09-14T16:47:08.100707058-03:00"
+    created: "2021-09-14T16:58:38.357111294-03:00"
     description: A Helm chart for Kubernetes
-    digest: b2e5f3cebc9dc08465e71b052832e7546f9df27d96227bdb28da7cfc0bc45f46
-    name: poc-jenkins-bitbucket-hook
+    digest: 14b207d93f377e814eacb7cc22b74c45623535ab36b8648a3773bdf905b9c689
+    name: poc
     type: application
     urls:
-    - charts/poc-jenkins-bitbucket-hook-0.1.0.tgz
+    - charts/poc-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-14T16:47:08.100118058-03:00"
+generated: "2021-09-14T16:58:38.356755538-03:00"
