@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: papier-backend-api-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: papier-backend-api
+  template:
+    metadata:
+      labels:
+        app: papier-backend-api
+    spec:
+      imagePullSecrets:
+        - name: regcred
+      containers:
+        - name: papier-backend-api
+          image: itlgdeveloper/orbus-papier-api:{{ .Values.tag }}
+          ports:
+            - containerPort: 8080
+          env:
+            - name: PGPASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mongopassword
+                  key: MONGOADMINPASSWORD
+            - name: GOOGLE_APPLICATION_CREDENTIALS
+              value: /home/application/java/corebox-cloud-01-339e3f0f2b33.json
+
