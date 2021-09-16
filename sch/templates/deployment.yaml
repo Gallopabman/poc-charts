@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: sch-wildfly-api-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sch-wildfly-api
+  template:
+    metadata:
+      labels:
+        app: sch-wildfly-api
+    spec:
+      imagePullSecrets:
+        - name: regcred
+      containers:
+        - name: sch-wildfly-api
+          image: itlgdeveloper/sch-api:{{ .Values.tag }}
+          ports:
+            - containerPort: 8080
