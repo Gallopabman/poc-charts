@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  hmm-api:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-29T16:45:38.757835708-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 1c964b1928e1fbfa7e582c5a1a711db8e39fa2f8d633140a00b2bdd1d01ee541
+    name: hmm-api
+    type: application
+    urls:
+    - charts/hmm-api-0.1.0.tgz
+    version: 0.1.0
   papier-backend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-15T14:33:22.239124631-03:00"
+    created: "2021-09-29T16:45:38.758672973-03:00"
     description: A Helm chart for Kubernetes
     digest: 8e3bfff793c9760662051cf0db85dd8a3733f50fe0aa56e6a7bc09473a31152e
     name: papier-backend
@@ -14,7 +25,7 @@ entries:
   papier-web:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-15T14:33:22.239357911-03:00"
+    created: "2021-09-29T16:45:38.758890733-03:00"
     description: A Helm chart for Kubernetes
     digest: 002487b91a8138b805134b9f5bf8258df7acf5cba70f1f128c807e10fdc21c7a
     name: papier-web
@@ -25,7 +36,7 @@ entries:
   poc:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-09-15T14:33:22.239537638-03:00"
+    created: "2021-09-29T16:45:38.75908544-03:00"
     description: A Helm chart for Kubernetes
     digest: 14b207d93f377e814eacb7cc22b74c45623535ab36b8648a3773bdf905b9c689
     name: poc
@@ -33,4 +44,15 @@ entries:
     urls:
     - charts/poc-0.1.0.tgz
     version: 0.1.0
-generated: "2021-09-15T14:33:22.23877733-03:00"
+  sch:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-29T16:45:38.759301497-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 0938d523f47196a921d3648d803afad9ff8be9e6b32886d8096eb4a700fbd60b
+    name: sch
+    type: application
+    urls:
+    - charts/sch-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-09-29T16:45:38.757475086-03:00"
