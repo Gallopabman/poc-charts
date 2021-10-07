@@ -3,7 +3,7 @@ entries:
   hmm-api:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-07T14:41:13.689640102-03:00"
+    created: "2021-10-07T14:43:27.29807835-03:00"
     description: A Helm chart for Kubernetes
     digest: 1d696aecc4a20e76e92653710fbe3c748c7be15046b7beaeed71d9ff8c58560c
     name: hmm-api
@@ -14,7 +14,7 @@ entries:
   hmm-migrator:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-07T14:41:13.6900431-03:00"
+    created: "2021-10-07T14:43:27.298288187-03:00"
     description: A Helm chart for Kubernetes
     digest: e667007a1afb156be5149660aacf4e20f9be1e21e8a07ebbc70d1734de983fe8
     name: hmm-migrator
@@ -25,7 +25,7 @@ entries:
   hmm-scheduler:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-07T14:41:13.690471067-03:00"
+    created: "2021-10-07T14:43:27.298476897-03:00"
     description: A Helm chart for Kubernetes
     digest: 98fce136a278a26ae1722a006ca4736929b196268dde2f9d50aeb97a776b5d92
     name: hmm-scheduler
@@ -36,9 +36,9 @@ entries:
   hmm-web-backoffice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-07T14:41:13.690728444-03:00"
+    created: "2021-10-07T14:43:27.298672494-03:00"
     description: A Helm chart for Kubernetes
-    digest: f70479d779f846a966012571ffeee8162e3f1d9265b46afa177ecf905c8d0011
+    digest: 224adeb00c968ee5f310f6a3ab9519c45db3f76fd3f51388b220afe4d6702eb3
     name: hmm-web-backoffice
     type: application
     urls:
@@ -47,7 +47,7 @@ entries:
   papier-backend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-07T14:41:13.691218975-03:00"
+    created: "2021-10-07T14:43:27.298880784-03:00"
     description: A Helm chart for Kubernetes
     digest: 8e3bfff793c9760662051cf0db85dd8a3733f50fe0aa56e6a7bc09473a31152e
     name: papier-backend
@@ -58,7 +58,7 @@ entries:
   papier-content:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-07T14:41:13.691680056-03:00"
+    created: "2021-10-07T14:43:27.299060614-03:00"
     description: A Helm chart for Kubernetes
     digest: 1fb5606334b6b339a8698bfef2bb3ab0cbcbeeb75487174e7f000d29a8765492
     name: papier-content
@@ -69,7 +69,7 @@ entries:
   papier-files:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-07T14:41:13.692058019-03:00"
+    created: "2021-10-07T14:43:27.299231677-03:00"
     description: A Helm chart for Kubernetes
     digest: 9e21d5c23f621e6498a6652bdf1a137ea68a8bcdbdab432b4caf7dffa457f1bb
     name: papier-files
@@ -80,7 +80,7 @@ entries:
   papier-web:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-07T14:41:13.692431196-03:00"
+    created: "2021-10-07T14:43:27.299420124-03:00"
     description: A Helm chart for Kubernetes
     digest: 002487b91a8138b805134b9f5bf8258df7acf5cba70f1f128c807e10fdc21c7a
     name: papier-web
@@ -91,7 +91,7 @@ entries:
   poc:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-10-07T14:41:13.692774988-03:00"
+    created: "2021-10-07T14:43:27.299590759-03:00"
     description: A Helm chart for Kubernetes
     digest: 14b207d93f377e814eacb7cc22b74c45623535ab36b8648a3773bdf905b9c689
     name: poc
@@ -102,7 +102,7 @@ entries:
   sch:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-07T14:41:13.693116563-03:00"
+    created: "2021-10-07T14:43:27.299794763-03:00"
     description: A Helm chart for Kubernetes
     digest: 0938d523f47196a921d3648d803afad9ff8be9e6b32886d8096eb4a700fbd60b
     name: sch
@@ -110,4 +110,4 @@ entries:
     urls:
     - charts/sch-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-07T14:41:13.689005438-03:00"
+generated: "2021-10-07T14:43:27.297712074-03:00"
